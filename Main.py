@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 
 user_state = {}
 # Initialization of the Telegram bot
-bot = telebot.TeleBot('bot-token')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 # Create a keyboard
 keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
